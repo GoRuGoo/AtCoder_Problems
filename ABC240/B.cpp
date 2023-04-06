@@ -4,7 +4,7 @@
 using namespace std;
 template <typename K, typename V>
 void print_map(map<K, V> const &m) {
-  int count=0;
+  int count = 0;
   for (auto const &pair : m) {
     count++;
   }
